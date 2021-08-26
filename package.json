@@ -1,0 +1,27 @@
+{
+  "name": "cddd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "jest --no-cache",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dealmeidafernando/cddd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dealmeidafernando/cddd/issues"
+  },
+  "homepage": "https://github.com/dealmeidafernando/cddd#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
+}
