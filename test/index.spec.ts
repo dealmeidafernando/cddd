@@ -6,4 +6,9 @@ describe('when receive an array of valid numbers', () => {
 
     expect(result).toEqual(12)
   })
+  it('should return calculate average with success', async () => {
+    const result = average([10, 10, 10])
+
+    expect(result).toEqual(10)
+  })
 })
