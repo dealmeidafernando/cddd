@@ -1,9 +1,10 @@
 name: development
 
 on:
-  push:
-    branches-ignore:
-      - 'master'
+  pull_request:
+    types: [review_requested, ready_for_review]
+    branches:
+      - master
 
 jobs:
   build:
