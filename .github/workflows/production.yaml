@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: 16
 
+      - name: Resolve dependencies
+        run: npm install --production
+
       - name: Publish new release
         run: npx semantic-release
         env:
