@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dealmeidafernando/cddd.git"
+    "url": "git+https://github.com/dealmeidafernando/js-test-release.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dealmeidafernando/cddd/issues"
+    "url": "https://github.com/dealmeidafernando/js-test-release/issues"
   },
-  "homepage": "https://github.com/dealmeidafernando/cddd#readme",
+  "homepage": "https://github.com/dealmeidafernando/js-test-release#readme",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "jest": "^25.1.0",
