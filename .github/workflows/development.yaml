@@ -17,11 +17,5 @@ jobs:
         with:
           node-version: 12
 
-      - name: Resolves dependencies
-        run: npm install
-
       - name: Set environment
         run: cp .env.example .env
-
-      - name: Unit tests
-        run: npm run test:unit
